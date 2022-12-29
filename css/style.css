@@ -158,11 +158,17 @@ img{
 }
 
 
+
+
 @media screen and (max-width:320px) {
   .nav__name{
     display: none;
   }
 }
+
+
+
+
 
 @media screen and (min-width:576px) {
   .nav__list{
@@ -170,6 +176,14 @@ img{
    column-gap: 3rem;
   }
 }
+
+
+@media screen and (max-width:767px) {
+    .nav__list{
+    margin-top: .5rem;
+    }
+  } 
+  
 
 @media screen and (min-width:767px) {
   body{
@@ -188,6 +202,8 @@ img{
   .nav__img{
     display: none;
   }
+
+
 
   .nav__name{
     font-size: var(--normal-font-size);
